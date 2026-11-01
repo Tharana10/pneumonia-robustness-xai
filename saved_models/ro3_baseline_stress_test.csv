@@ -1,0 +1,10 @@
+Accuracy,Sensitivity,Specificity,Precision,F1_Score,ROC_AUC,Scenario,Perturbation,Severity
+96.45,97.65,93.25,97.49,97.57,98.98,Clean (Baseline),clean,1.0
+84.78,100.0,43.88,82.73,90.55,98.13,Low Brightness (0.5x),brightness,0.5
+85.24,99.53,46.84,83.42,90.77,96.56,High Brightness (1.5x),brightness,1.5
+94.51,99.37,81.43,93.5,96.35,98.74,Low Contrast / Haze (0.4x),contrast,0.4
+85.7,100.0,47.26,83.6,91.07,96.74,Gaussian Noise (σ=25),gaussian_noise,25.0
+75.86,99.84,11.39,75.18,85.77,88.09,Heavy Noise (σ=45),gaussian_noise,45.0
+94.05,99.22,80.17,93.08,96.05,98.61,JPEG Compression (Q=10),jpeg_compression,10.0
+95.08,95.45,94.09,97.75,96.58,98.14,Thoracic Scale (-18% Vol),thoracic_scale,0.82
+93.02,99.53,75.53,91.62,95.41,99.05,Thoracic Scale (+18% Vol),thoracic_scale,1.18
