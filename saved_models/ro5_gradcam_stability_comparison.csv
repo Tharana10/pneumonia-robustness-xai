@@ -1,0 +1,9 @@
+Perturbation,Baseline_SSIM,Robust_SSIM,Baseline_PCC,Robust_PCC,Baseline_Lung_Focus_Pct,Robust_Lung_Focus_Pct
+Low Brightness (0.5x),0.5538,0.8421,0.519,0.5154,59.52,35.6
+High Brightness (1.5x),0.5494,0.8059,0.4168,0.4906,58.49,32.13
+Low Contrast / Haze (0.4x),0.7072,0.8297,0.537,0.4939,47.58,34.84
+Gaussian Noise (sigma=25),0.5207,0.786,0.3806,0.4548,63.57,34.03
+Heavy Noise (sigma=45),0.3919,0.7431,0.2859,0.4008,63.94,34.25
+JPEG Compression (Q=10),0.7178,0.8105,0.5933,0.4862,48.82,32.84
+Thoracic Scale (-18% Vol),0.5945,0.6807,0.2652,0.3764,45.52,40.67
+Thoracic Scale (+18% Vol),0.6135,0.7054,0.3294,0.273,49.87,41.63
