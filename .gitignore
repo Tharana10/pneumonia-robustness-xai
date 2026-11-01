@@ -1,0 +1,12 @@
+﻿# Ignore large PyTorch model weights (.pth) & raw image folders
+*.pth
+*.archive
+*.zip
+chest_xray/
+chest_xray_data/
+
+# Ignore Python virtual environments & cache
+.venv/
+venv/
+__pycache__/
+*.pyc
