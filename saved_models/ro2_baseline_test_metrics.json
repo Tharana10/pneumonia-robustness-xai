@@ -1,0 +1,12 @@
+{
+    "Accuracy": 96.45,
+    "Sensitivity": 97.65,
+    "Specificity": 93.25,
+    "Precision": 97.49,
+    "F1_Score": 97.57,
+    "ROC_AUC": 98.98,
+    "TP": 622,
+    "TN": 221,
+    "FP": 16,
+    "FN": 15
+}
